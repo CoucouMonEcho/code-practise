@@ -1,3 +1,5 @@
+
+
 # go-framework
 
 ## 1. Web
@@ -55,7 +57,7 @@
 ### 2.1. SQL语句
 
 - [x] `QueryBuilder`作为构建SQL语句的顶级抽象，封装预编译的SQL语句和参数`Query`；
-- [x] `Querier`抽象用于`SELECT`语句，`Executor`抽象用于`INSERT`、`UPDATE`、`INSERT`语句；
+- [x] `Querier`抽象用于`SELECT`语句，`Executor`抽象用于`INSERT`、`UPDATE`、`DELETE`语句；
 - [x] `Expression`是所有不同类型SQL部分拼接的标记接口；
 
   ```
